@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,
+    300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="diseñoTransmision.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Transmision</title>
+    <script src="/Source - inicio/botonesTransmision.js" defer></script>
+</head>
+<header class="header">
+    
+    <ul class="header__horizontal">
+        <li class="header__titulo">
+            <h1 id="streaming">Otroquest</h1>
+        </li>
+        <li class="header__items">
+            
+            <button class="btn__espaciado" id="btnTransmision">Transmisión</button>
+            <button class="btn__espaciado" id="btnVideos">Vídeos</button>
+            <button class="btn__espaciado" id="btnTienda">Tienda</button>
+            <button class="btn__espaciado" id="btnApoyame">Apóyame</button>
+            <button class="btn__espaciado" id="btnBlog">Blog</button>
+            <button class="btn__espaciado" id="btnIniciarSesion">Iniciar sesión</button>
+
+            <i class="fab fa-twitch"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-cart-shopping" id="btnCarrito"></i>
+        </li>
+    </ul>
+</header>
+
+<body>
+    <section class="seccion__secundaria">
+        <div class="seccion__video__secundaria">
+            <iframe  src="https://www.youtube.com/embed/AD5nnjDxpm4" frameborder="0" allowfullscreen></iframe>
+        </div>   
+        <div class="seccion__secundaria__texto">
+        <h1 class="seccion__texto__2">Primer tráiler de juego oficial: Indiana Jones y el Gran Círculo</h1>
+        <div class="txt_1"> 
+        <p class="seccion__header__secundaria__titulo">
+            Descifra uno de los misterios más insondables de la historia en Indiana Jones y 
+            el Gran Círculo, una aventura individual en primera persona que se desarrolla entre Indiana Jones: en busca del arca 
+            perdida e Indiana Jones y la última cruzada. Corre el año 1937 y fuerzas abyectas recorren el planeta para quedarse con
+            el poder secreto del Gran Círculo. Solo hay una persona capaz de detenerlas: Indiana Jones. Encarna al legendario 
+            arqueólogo en este trepidante juego cinemático de acción y aventura de MachineGames, el galardonado estudio que lleva las
+            riendas de la saga Wolfenstein y que en esta ocasión cuenta con el aclamadísimo diseñador Todd Howard como productor 
+            ejecutivo.</p>
+        </div>
+        <button class="seccion__secundaria__btn">Ver ahora</button>
+        </div>
+    </section>
+
+    <div class="titulo__streamings">
+        <h1> proximas transmisiones</h1>
+    </div>
+
+    <section class="seccion__principal__streamings">
+        <div class="seccion__streamings__secundaria">
+        <h3 class="streamings__titulo">LUNES 17 DE AGOSTO A LAS 11 P. M.</h3>
+        <p class="streamings__descripcion">Nombre de transmisión + Enlace aquí</p>
+        </div>
+
+        <div class="seccion__streamings__secundaria">
+        <h3 class="streaming__titulo">JUEVES 20 DE AGOSTO A LAS 11 P. M.</h3>
+        <p class="streamings__descripcion">Nombre de transmisión + Enlace aquí </p>
+        </div>   
+
+        <div class="seccion__streamings__secundaria">
+        <h3 class="streamings__titulo">SÁBADO 22 DE AGOSTO A LAS 11 P. M.</h3>
+        <p class="streamings__descripcion">Nombre de transmisión + Enlace aquí</p>
+        </div>    
+    </section>
+
+    <section class="seccion__principal__streamings">
+        <div class="seccion__streamings__secundaria">
+        <h3 class="streamings__titulo">MIÉRCOLES 26 DE AGOSTOA LAS 11 P. M.</h3>
+        <p class="streamings__descripcion">Nombre de transmisión + Enlace aquí</p>
+        </div>
+
+        <div class="seccion__streamings__secundaria">
+        <h3 class="streaming__titulo">SÁBADO 29 DE AGOSTOA LAS 11 P. M.</h3>
+        <p class="streamings__descripcion">Nombre de transmisión + Enlace aquí </p>
+        </div>   
+
+        <div class="seccion__streamings__secundaria">
+        <h3 class="streamings__titulo">MARTES 1 DE SEPTIEMBREA LAS 11 P. M.</h3>
+        <p class="streamings__descripcion">Nombre de transmisión + Enlace aquí</p>
+        </div>    
+    </section>
+
+    <div id="loginPopup" class="popup-overlay">
+      <div class="popup-content">
+          <h2>Te damos la bienvenida a OTROQUEST</h2>
+          <form>
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="password">Contraseña</label>
+              <input type="password" id="password" name="password" required>
+
+              <button type="submit" class="btn-login">Iniciar sesión</button>
+          </form>
+
+              <p class="popup-links">
+                  <a href="#">¿Olvidaste la contraseña?</a>
+                  <a href="#">Crear cuenta</a>
+              </p>
+
+          <span id="closePopup" class="popup-close">&times;</span>
+      </div>
+
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer__seccion">
+        <h3 class="footer__titulo">Explorar</h3>
+        <ul class="footer__links">
+          <li><a id="btnTransmision2">Transmisión</a></li>
+          <li><a id="btnVideos2">Videos</a></li>
+          <li><a id="btnBlog2">Blog</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer__seccion">
+        <h3 class="footer__titulo">Apóyame</h3>
+        <ul class="footer__links">
+          <li><a id="btnTienda2">Tienda</a></li>
+          <li><a id="btnApoyame2">Apóyame</a></li>
+          <li><a id="btnAcerca">Acerca de</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer__seccion">
+        <h3 class="footer__titulo">Mantente al día</h3>
+        <input type="text" class="nombre" name="nombre" required placeholder="Correo electrónico">
+        <button class="footer__btn boton__footer">Suscribirme</button>
+      </div>
+  
+      <div class="footer__seccion">
+        <h3 class="footer__titulo">Síguenos</h3>
+        <div class="footer__icons">
+          <a href="https://www.twitch.tv"><i class="fab fa-twitch twitch"></i></a>
+          <a href="https://www.youtube.com"><i class="fab fa-youtube youtube"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram instagram"></i></a>
+        </div>
+        <p>Hecho con Squarespace</p>
+      </div>
+    </div>
+</footer> 
+    
+</body>
+</html>
